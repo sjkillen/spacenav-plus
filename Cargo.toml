@@ -1,0 +1,8 @@
+[package]
+name = "spacenav-plus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libspnav = { git = "https://github.com/sjkillen/libspnav-rust", branch = "master" }
+lazy_static = "1.4.0"
