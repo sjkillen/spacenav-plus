@@ -1,5 +1,5 @@
 use lazy_static::lazy_static;
-use libspnav;
+use libspnav_bindings as libspnav;
 use std::convert::{From, Into, TryFrom};
 use std::sync::Mutex;
 

@@ -2,7 +2,12 @@
 name = "spacenav-plus"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Unsafe libspnav FFI bindings for Rust"
+repository = "https://github.com/sjkillen/libspnav-rust"
+readme = "README.md"
+keywords = ["spacemouse", "3Dconnexion", "spacenav"]
 
 [dependencies]
-libspnav = { git = "https://github.com/sjkillen/libspnav-rust", branch = "master" }
+libspnav-bindings = "0.1.0"
 lazy_static = "1.4.0"
