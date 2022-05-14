@@ -1,10 +1,10 @@
 [package]
 name = "spacenav-plus"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Unsafe libspnav FFI bindings for Rust"
-repository = "https://github.com/sjkillen/libspnav-rust"
+repository = "https://github.com/sjkillen/spacenav-plus"
 readme = "README.md"
 keywords = ["spacemouse", "3Dconnexion", "spacenav"]
 

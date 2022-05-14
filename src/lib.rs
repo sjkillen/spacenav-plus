@@ -42,6 +42,17 @@ pub struct MotionEvent {
     // data[6] not included, because I'm not sure if its redundant
 }
 
+impl MotionEvent {
+    // Convenience method that returns x, y, z translation
+    pub fn t(&self) -> (i32, i32, i32) {
+        (self.x, self.y, self.z)
+    }
+    // Convenience method that returns  rx, ry, rz rotation
+    pub fn r(&self) -> (i32, i32, i32) {
+        (self.rx, self.ry, self.rz)
+    }
+}
+
 impl From<libspnav::spnav_event_motion> for MotionEvent {
     fn from(event: libspnav::spnav_event_motion) -> Self {
         MotionEvent {
